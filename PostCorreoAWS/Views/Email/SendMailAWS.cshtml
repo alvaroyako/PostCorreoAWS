@@ -1,0 +1,20 @@
+﻿<h1>
+    Send Mails SMTP
+</h1>
+
+<h1 style="color:blue">
+    @ViewData["MENSAJE"]
+</h1>
+
+<form method="post">
+    <label>Email: </label>
+    <input type="text" name="email" class="form-control" />
+    <br />
+    <label>Asunto: </label>
+    <input type="text" name="subject" class="form-control" /><br />
+    <label>Mensaje: </label>
+    <textarea name="body" class="form-control"></textarea><br />
+    <button type="submit" class="btn btn-info">
+        Enviar correo
+    </button>
+</form>
